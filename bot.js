@@ -6,7 +6,7 @@
   var c = 0;
   var url = window.location.href;
   
-  if(url.includes('test')) {
+  if(url.includes('test')) { //Change the keyword to whatever you're looking for in the URL
     setTimeout(function(){
     
       function scroll() {
